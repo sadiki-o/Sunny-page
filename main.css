@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  font-size: 18px;
+  font-family: Barlow, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+* header {
+  position: relative;
+  height: 60vh;
+  width: 100%;
+  background: #3DBEFF;
+}
+* header nav {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+* header nav .logo {
+  height: 30px;
+}
+* header nav .normal-links {
+  display: flex;
+  min-width: 370px;
+  width: 30%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+* header nav .normal-links li {
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  height: 25px;
+  width: 60px;
+  list-style: none;
+}
+* header nav .normal-links li:hover {
+  cursor: pointer;
+}
+* header nav .normal-links .contact {
+  font-weight: 600;
+  background: white;
+  color: black;
+  border-radius: 20px;
+  height: 40px;
+  width: 100px;
+  padding-top: 9px;
+}
+* header #sec1 {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./images/desktop/image-header.jpg");
+  background-size: 80% 120%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: -44px;
+}
+* header #sec1 .tit1 {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  font-weight: 900;
+  color: white;
+}
+* #section1 {
+  min-height: 1500px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+* #section1 .d-show {
+  width: 50%;
+  min-height: calc(1500px/3);
+}
+* #section1 .d-show > img {
+  width: 100%;
+  height: 100%;
+}
+* #section1 .im {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: left;
+  padding: 40px 0;
+}
+* #section1 .im > h2 {
+  margin: 0 auto;
+  width: 60%;
+  color: #233040;
+  font-size: 1.5rem;
+  font-family: "Fraunces", sans-serif;
+}
+* #section1 .im > a {
+  margin: 0 auto;
+  width: 60%;
+  text-decoration: none;
+  color: #19536b;
+  font-weight: 900;
+}
+* #section1 .im > p {
+  margin: 0 auto;
+  width: 60%;
+}
+* #section1 .imx1, * #section1 .imx2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+* #section1 .imx1 > h2, * #section1 .imx2 > h2 {
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  top: 55%;
+  color: #233040;
+  font-size: 1.5rem;
+  font-family: "Fraunces", sans-serif;
+}
+* #section1 .imx1 > p, * #section1 .imx2 > p {
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  top: 68%;
+}
+* #section1 .imx1 {
+  background-image: url(./images/desktop/image-graphic-design.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+* #section1 .imx2 {
+  background-image: url(./images/desktop/image-photography.jpg);
+  background-size: 100% 100%;
+}
+* #section2 {
+  min-height: 75vh;
+  background: #FFFBF8;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+* #section2 .clien {
+  padding-top: 20px;
+  height: 20%;
+  width: 100%;
+  text-align: center;
+  color: #AAAAAA;
+  font-size: 1.3rem;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+}
+* #section2 #reviews {
+  min-height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+* #section2 #reviews .rev {
+  position: relative;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+* #section2 #reviews .rev img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+* #gal {
+  width: 100%;
+  min-height: 350px;
+  display: flex;
+}
+* #gal img {
+  display: block;
+  width: 25%;
+  height: 350px;
+}
+* footer {
+  height: 300px;
+  background: #90D4C5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+  padding: 100px;
+}
+* footer h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-top: -60px;
+  color: #2a5c50;
+}
+* footer nav {
+  margin-top: -20px;
+  display: flex;
+  gap: 65px;
+}
+* footer nav a {
+  text-decoration: none;
+  color: #45897A;
+}
+* footer .social-media {
+  display: flex;
+  gap: 15px;
+  color: #2E7565;
+}
+* footer .social-media i {
+  font-size: 40px;
+}
+* footer .social-media i:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.drop-invisible {
+  position: absolute;
+  top: 100px;
+  height: 300px;
+  width: 100vw;
+  background: pink;
+  color: black;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.drop-invisible a:hover {
+  cursor: pointer;
+  color: white;
+}
+
+@media only screen and (max-width: 700px) {
+  #section1 .d-show {
+    width: 100%;
+  }
+  #section1 .d-show:nth-child(1) {
+    order: 1;
+  }
+  #section1 .d-show:nth-child(2) {
+    order: 2;
+  }
+  #section1 .d-show:nth-child(3) {
+    order: 4;
+  }
+  #section1 .d-show:nth-child(4) {
+    order: 3;
+  }
+  #section1 .d-show:nth-child(5) {
+    order: 5;
+  }
+  #section1 .d-show:nth-child(6) {
+    order: 6;
+  }
+
+  #reviews {
+    flex-direction: column;
+    gap: 50px;
+    margin: 30px 0;
+  }
+
+  #gal {
+    flex-wrap: wrap;
+  }
+  #gal img {
+    width: 50%;
+  }
+
+  .fa, .fas {
+    display: block !important;
+    color: white;
+    font-size: 1.6rem;
+  }
+  .fa:hover, .fas:hover {
+    cursor: pointer;
+  }
+  .fa:active, .fas:active {
+    color: black;
+  }
+
+  header nav .normal-links {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */
